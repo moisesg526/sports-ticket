@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo {
+    color: #fff;
+    cursor: pointer;
+}
+
+.navigations a{
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(150, 0, 0);
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Body */
+
+.heading {
+    text-align: center;
+    margin: 40px 40px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+}
