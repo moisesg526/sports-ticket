@@ -34,11 +34,39 @@
 
 h1 {
     color: #fff;
-    font-size: 24px;
+    font-size: 1.65rem;
     padding-bottom: 10px;
 }
 h3 {
     color: #fff;
-    font-size: 14px;
+    font-size: 1.25rem;
     font-weight: 200;
+    line-height: 2rem;
+}
+
+.search {
+    padding: 0 1.5rem;
+}
+
+.searchbar {
+    width: 100%;
+    padding: 1.25rem;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-style: none;
+}
+.searchbar p {
+    background-color: inherit;
+    font-weight: 600; 
+    font-size: 1.0625rem;
+}
+
+.searchicon {
+    background-color: #fff;
+    padding: 0 1rem 0 0;
+
 }
