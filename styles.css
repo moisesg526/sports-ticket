@@ -134,6 +134,7 @@ hr.line {
   margin: 20px 0;
   padding: 10px 20px; 
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .browse-btn {
@@ -142,7 +143,7 @@ hr.line {
 
 /* Categories */
 .categories {
-  padding: 10px;
+  padding: 20px;
 }
 
 .categories-events ul{
@@ -158,9 +159,19 @@ li {
 .block {
   color: #fff;
   background-color: #000;
-  width: 150px;
+  width: 200px;
   margin: 10px;
-  padding: 40px 50px;
+  padding: 40px 70px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.btm-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px 20px;
   border-radius: 10px;
 }
 
