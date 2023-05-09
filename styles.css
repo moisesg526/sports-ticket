@@ -1,7 +1,6 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  background-color: #000;
   font-family: Roobert, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
@@ -11,6 +10,7 @@
   display: flex;
   justify-content: space-around;
   padding: 20px;
+  background-color: #000;
 }
 
 .logo {
@@ -26,7 +26,9 @@
   margin-left: 10px;
   cursor: pointer;
 }
-
+.top-section {
+  background-color: #000;
+}
 /* Body */
 
 .heading {
@@ -178,3 +180,29 @@ li {
 .categories h3 {
   color: #000;
 }
+
+.highlights .white-bck{
+  padding: 0 20px;
+  color: #000;
+}
+.highlight-section {
+  color:#000;
+  overflow: auto hidden;
+}
+
+.highlight-list {
+  background-color: #fff;
+  display: flex;
+  padding: 10px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.highlight-event {
+  background-color: #fff;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(65, 115, 190);
+  margin: 10px;
+}
+
