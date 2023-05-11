@@ -124,7 +124,7 @@ hr.line {
   background-color: #fff;
 }
 
-.white-bck{
+.white-bck {
   background-color: #fff;
 }
 
@@ -134,7 +134,7 @@ hr.line {
 
 .browse-btn {
   margin: 20px 0;
-  padding: 10px 20px; 
+  padding: 10px 20px;
   border-radius: 20px;
   cursor: pointer;
 }
@@ -148,7 +148,7 @@ hr.line {
   padding: 20px;
 }
 
-.categories-events ul{
+.categories-events ul {
   display: flex;
   padding: 0%;
   overflow: auto hidden;
@@ -182,13 +182,12 @@ li {
   color: #000;
 }
 
-
-.highlights .white-bck{
+.highlights .white-bck {
   padding: 0 20px;
   color: #000;
 }
 .highlight-section {
-  color:#000;
+  color: #000;
   overflow: auto hidden;
 }
 
@@ -215,8 +214,7 @@ li {
 .find {
   position: absolute;
   text-align: left;
-  padding: 100px 10px 0 10px
-
+  padding: 100px 10px 0 10px;
 }
 
 .find-ticket-banner {
@@ -228,4 +226,18 @@ li {
   bottom: 0;
   text-align: left;
   font-size: 0.7rem;
+}
+
+#heart {
+  position: absolute;
+  margin: 20px 10px;
+  right: 0;
+}
+
+.dark-heart {
+  color: #343434;
+}
+
+.clicked-heart {
+  color: rgb(208, 74, 134);
 }

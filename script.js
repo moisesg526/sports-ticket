@@ -1,8 +1,17 @@
+function changeHeartcolor() {
+  let heart = document.getElementById("heart");
+  heart.addEventListener("click", () => {
+    if (heart.classList.contains("dark-heart")) {
+      heart.classList.remove("dark-heart");
+      heart.classList.add("clicked-heart");
+    } else {
+      heart.classList.remove("clicked-heart");
+      heart.classList.add("dark-heart");
+    }
+  });
+}
 
-fetch('https://api.seatgeek.com/2/events?client_id=MzM0NjE4NzV8MTY4MzI1MDU0MS4yMjMwNDY')
-  .then((res) => {
-    return res.json();
-  })
-  .then((data) => {
-    console.log(data);
-    })
+// heart.style.color = "rgb(208, 74, 134)";
+//   if(heart.style.color = "rgb(208, 74, 134)") {
+
+//   }
