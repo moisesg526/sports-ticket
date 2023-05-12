@@ -11,7 +11,12 @@ function changeHeartcolor() {
   });
 }
 
-// heart.style.color = "rgb(208, 74, 134)";
-//   if(heart.style.color = "rgb(208, 74, 134)") {
-
-//   }
+function searchByCategories() {
+  let showList = document.getElementById("show-search-list");
+  let hiddenList = document.getElementById("hidden-list");
+  showList.addEventListener("click", () => {
+    if(hiddenList.classList.contains("search-list")) {
+      hiddenList.style.display = ("block")
+    }
+  })
+}
