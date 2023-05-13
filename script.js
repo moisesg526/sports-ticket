@@ -20,3 +20,13 @@ function searchByCategories() {
     }
   })
 }
+
+function closeCategorySearch() {
+  let close = document.getElementById("closeCategory");
+  let hiddenList = document.getElementById("hidden-list");
+  close.addEventListener("click", () => {
+    if(hiddenList.classList.contains("search-list")) {
+      hiddenList.style.display = ("none")
+    }
+  })
+}
