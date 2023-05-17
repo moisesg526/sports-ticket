@@ -33,7 +33,7 @@
 
 .heading {
   text-align: center;
-  margin: 40px 40px;
+  margin: 0 40px 40px;
   padding-top: 20px;
 }
 
@@ -90,7 +90,7 @@ h3 {
 
 .search-list {
   background-color: #fff;
-  padding: 20px; 
+  padding: 20px;
   line-height: 3rem;
   display: none;
   position: absolute;
@@ -109,15 +109,14 @@ h3 {
   box-shadow: 5px 5px 10px 2px rgba(219, 219, 219, 0.8);
 }
 
-.search-categories-list h3{
+.search-categories-list h3 {
   color: #000;
   font-weight: 500;
   font-size: 1rem;
 }
 
 hr.line {
-  border: 1px solid #222222;
-  width: 90%;
+  border: 0.1px solid #c9c9c9;
   margin: auto;
 }
 
@@ -225,9 +224,18 @@ li {
   padding: 0 20px;
   color: #000;
 }
+
 .highlight-section {
   color: #000;
   overflow: auto hidden;
+}
+
+.categories-events ul::-webkit-scrollbar {
+  display: none;
+}
+
+.highlight-section::-webkit-scrollbar {
+  display: none;
 }
 
 .highlight-list {
@@ -279,4 +287,26 @@ li {
 
 .clicked-heart {
   color: rgb(208, 74, 134);
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  padding: 0 0 20px;
+}
+
+.footer ul {
+  padding: 0 20px;
+  line-height: 2.3rem;
+}
+
+.footer li {
+  color: #6f6f6f;
+}
+
+.footer-links h3 {
+  color: #000;
+  padding: 20px 20px 10px;
+  font-weight: 500;
+  font-size: 1.2rem;
 }

@@ -11,6 +11,8 @@ function changeHeartcolor() {
   });
 }
 
+
+ 
 function searchByCategories() {
   let showList = document.getElementById("show-search-list");
   let hiddenList = document.getElementById("hidden-list");
