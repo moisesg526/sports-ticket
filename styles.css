@@ -310,3 +310,63 @@ li {
   font-weight: 500;
   font-size: 1.2rem;
 }
+
+@media only screen and (min-width: 500px) {
+  .heading {
+    padding: 60px 10px 0;
+  }
+
+  .searchbar {
+    padding: 20px;
+  }
+
+  .searchbar p {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .events-section h3 {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .events-pic {
+    width: 6rem;
+  }
+
+  .events {
+    margin: 30px 10px;
+    align-items: center;
+  }
+
+  .white-bck h3{
+    color: #000000;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+
+  .block {
+    height: 150px;
+    margin: 10px;
+    padding: 40px 110px;
+  }
+  
+  .highlight-event {
+    width: 420px;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+
+  .find {
+    padding: 200px 0px 0px 30px;
+    font-size: 1.5rem;
+  }
+  .find-ticket-banner {
+    padding: 20px 30px;
+  }
+}
