@@ -370,3 +370,10 @@ li {
     padding: 20px 30px;
   }
 }
+
+@media only screen and (min-width: 1000px) {
+  .searchbar {
+    width: 50%;
+    margin: auto;
+  }
+}
