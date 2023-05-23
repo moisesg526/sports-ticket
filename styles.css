@@ -376,4 +376,31 @@ li {
     width: 50%;
     margin: auto;
   }
+  h1 {
+    font-size: 3rem;
+  }
+
+.event-info {
+  padding: 40px 20px; 
+  background-color: #343434;
+}
+  .event-info h4{
+    font-size: 1.5rem;
+  }
+
+  .event-info h5 {
+    font-size: 1.2rem;
+  }
+
+  .events {
+    width: 500px;
+    height: 500px;
+    display: block;
+  }
+
+  .events-pic {
+    width: 500px;
+    margin: 0;
+    border-radius: 10px;
+  }
 }
