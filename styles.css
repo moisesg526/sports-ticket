@@ -344,7 +344,7 @@ li {
     align-items: center;
   }
 
-  .white-bck h3{
+  .white-bck h3 {
     color: #000000;
     font-weight: 400;
     padding-bottom: 20px;
@@ -355,7 +355,7 @@ li {
     margin: 10px;
     padding: 40px 110px;
   }
-  
+
   .highlight-event {
     width: 420px;
     height: 300px;
@@ -380,11 +380,16 @@ li {
     font-size: 3rem;
   }
 
-.event-info {
-  padding: 40px 20px; 
-  background-color: #343434;
-}
-  .event-info h4{
+  .events-section {
+    display: flex;
+    overflow: auto hidden;
+  }
+
+  .event-info {
+    padding: 40px 20px;
+    background-color: #343434;
+  }
+  .event-info h4 {
     font-size: 1.5rem;
   }
 
@@ -396,11 +401,33 @@ li {
     width: 500px;
     height: 500px;
     display: block;
+    padding-right: 30px;
   }
 
   .events-pic {
     width: 500px;
     margin: 0;
     border-radius: 10px;
+    padding-right: 30px;
+  }
+
+  .block {
+    width: 350px;
+    height: 200px;
+  }
+
+  .highlight-event {
+    width: 600px;
+    height: 400px;
+    font-size: 1.8rem;
+  }
+
+  .find {
+    padding-top: 250px;
+    font-size: 2rem;
+  }
+
+  .find-ticket-banner {
+    font-size: 1rem;
   }
 }
