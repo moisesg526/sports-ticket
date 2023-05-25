@@ -372,6 +372,12 @@ li {
 }
 
 @media only screen and (min-width: 1000px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+  }
+
   .searchbar {
     width: 50%;
     margin: auto;
@@ -416,14 +422,19 @@ li {
     height: 200px;
   }
 
+  .highlight-list {
+    width: 100%;
+  }
+
   .highlight-event {
-    width: 600px;
     height: 400px;
+    width: 460px;
     font-size: 1.8rem;
   }
 
   .find {
     padding-top: 250px;
+    width: 50%;
     font-size: 2rem;
   }
 
