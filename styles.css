@@ -45,7 +45,9 @@
 
 .login {
   display: none;
+  cursor: pointer;
 }
+
 /* Body */
 
 .heading {
