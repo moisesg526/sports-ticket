@@ -436,6 +436,7 @@ li {
     width: 50%;
     margin: auto;
   }
+  
   h1 {
     font-size: 3rem;
   }
@@ -488,9 +489,9 @@ li {
   }
 
   .find {
-    padding-top: 250px;
+    padding: 30% 20px;
     width: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .find-ticket-banner {
